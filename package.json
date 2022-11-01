@@ -1,5 +1,5 @@
 {
-	"name": "test1",
+	"name": "todo-list-frontend",
 	"private": true,
 	"version": "0.0.0",
 	"scripts": {
@@ -8,28 +8,29 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"jotai": "1.7.6",
+		"autoprefixer": "10.4.12",
 		"normalize.css": "8.0.1",
-		"autoprefixer": "10.4.7",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"react-router-dom": "6.3.0",
-		"react-hook-form": "7.33.1",
-		"styled-components": "5.3.5"
+		"react-hook-form": "7.37.0",
+		"react-router-dom": "6.4.2",
+		"styled-components": "5.3.6",
+		"timeago.js": "4.0.2",
+		"zustand": "4.1.2"
 	},
 	"devDependencies": {
-		"@types/node": "18.0.6",
-		"@types/react": "18.0.15",
+		"@types/node": "18.8.3",
+		"@types/react": "18.0.21",
 		"@types/react-dom": "18.0.6",
-		"@types/styled-components": "5.1.25",
-		"@typescript-eslint/eslint-plugin": "5.30.7",
-		"@typescript-eslint/parser": "5.30.7",
-		"@vitejs/plugin-react": "2.0.0",
-		"eslint": "8.20.0",
-		"eslint-plugin-react": "7.30.1",
+		"@types/styled-components": "5.1.26",
+		"@typescript-eslint/eslint-plugin": "5.39.0",
+		"@typescript-eslint/parser": "5.39.0",
+		"@vitejs/plugin-react": "2.1.0",
+		"eslint": "8.25.0",
+		"eslint-plugin-react": "7.31.9",
 		"eslint-plugin-react-hooks": "4.6.0",
 		"prettier": "2.7.1",
-		"typescript": "4.7.4",
-		"vite": "3.0.2"
+		"typescript": "4.8.4",
+		"vite": "3.1.7"
 	}
 }
